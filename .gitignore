@@ -1,0 +1,25 @@
+# Screenshots e previews
+screenshot_*.png
+landing_*.png
+
+# Arquivos temporários
+*.log
+*.txt
+frames/
+frames_video1/
+frames_video2/
+
+# Videos de backup/teste
+video1_original.mp4
+video_16x9_final.mp4
+*_aprovado*.mp4
+kling_*.mp4
+Gen-4*.mp4
+background_neural.mp4
+
+# Imagens fonte
+*.png
+!logo_transparent.png
+
+# Backups de HTML
+index_aprovado*.html
