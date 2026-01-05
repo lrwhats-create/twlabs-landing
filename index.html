@@ -3,8 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TW Labs - Inteligência Artificial</title>
-    <meta name="description" content="TW Labs - Soluções em Inteligência Artificial para transformar seu negócio">
+    <title>TW Labs - Inteligência Artificial | Soluções em IA</title>
+    <meta name="description" content="TW Labs - Soluções inovadoras em Inteligência Artificial para transformar seu negócio. Powering the Future with Intelligence.">
+    <meta name="keywords" content="inteligência artificial, IA, machine learning, automação, tecnologia, inovação, TW Labs, AI solutions">
+    <meta name="author" content="TW Labs">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://twlabs.ai/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://twlabs.ai/">
+    <meta property="og:title" content="TW Labs - Inteligência Artificial">
+    <meta property="og:description" content="Soluções inovadoras em Inteligência Artificial para transformar seu negócio. Powering the Future with Intelligence.">
+    <meta property="og:image" content="https://twlabs.ai/og-image.png">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="TW Labs">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://twlabs.ai/">
+    <meta name="twitter:title" content="TW Labs - Inteligência Artificial">
+    <meta name="twitter:description" content="Soluções inovadoras em Inteligência Artificial para transformar seu negócio. Powering the Future with Intelligence.">
+    <meta name="twitter:image" content="https://twlabs.ai/og-image.png">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "TW Labs",
+        "url": "https://twlabs.ai",
+        "logo": "https://twlabs.ai/logo.png",
+        "description": "Soluções inovadoras em Inteligência Artificial para transformar seu negócio.",
+        "sameAs": [],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "info@twlabs.ai",
+            "contactType": "customer service",
+            "availableLanguage": ["Portuguese", "English"]
+        }
+    }
+    </script>
 
     <!-- Google Fonts - Fontes Tecnológicas -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -234,7 +273,7 @@
             }
 
             .hero-content {
-                bottom: 8%;
+                bottom: 12%;
             }
 
             .tagline {
@@ -257,11 +296,16 @@
         }
 
         @media (max-width: 480px) {
+            .hero-content {
+                bottom: 10%;
+            }
+
             .tagline {
                 font-size: 3.5vw;
                 letter-spacing: 0.3vw;
                 padding: 1.8vh 4vw;
                 min-width: 75vw;
+                margin-bottom: 2.5vh;
             }
 
             .cta-button {
@@ -273,10 +317,10 @@
         /* Footer */
         .footer {
             position: absolute;
-            bottom: 0;
+            bottom: 1vh;
             left: 0;
             width: 100%;
-            padding: 15px 0;
+            padding: 0;
             text-align: center;
             background: transparent;
             z-index: 2;
@@ -289,6 +333,16 @@
             letter-spacing: 1px;
             margin: 0;
             text-shadow: 0 0 10px rgba(0, 200, 255, 0.3);
+        }
+
+        /* Mobile footer adjustments */
+        @media (max-width: 768px) {
+            .footer {
+                bottom: 0.5vh;
+            }
+            .footer p {
+                font-size: 2vw;
+            }
         }
     </style>
 </head>
@@ -307,7 +361,7 @@
         <!-- Hero Content -->
         <div class="hero-content">
             <p class="tagline">Powering the Future with Intelligence</p>
-            <a href="#contato" class="cta-button">Get in Touch</a>
+            <a href="mailto:brain@twlabs.ai" class="cta-button">Get in Touch</a>
         </div>
 
     </section>

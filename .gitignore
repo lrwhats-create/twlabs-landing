@@ -23,3 +23,6 @@ background_neural.mp4
 
 # Backups de HTML
 index_aprovado*.html
+
+# Credenciais (NUNCA commitar)
+.credentials/
